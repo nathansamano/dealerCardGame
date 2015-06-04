@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+  index.html
+-->
+
+<html lang="en"> <!-- ng-app="dealerApp" -->
+<head>
+  <!-- ie9+ rendering support for latest standards -->
+  <meta http-equiv="Content-Type" content="text/html;
+    charset=ISO-8859-1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>SPA</title>
+  
+  <!-- determines the size of the device screen -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- third party stylesheets -->
+
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- AngularJS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="css/spa.css"       type="text/css"/>
+  <link rel="stylesheet" href="css/spa.shell.css" type="text/css"/>
+
+  <!-- javascript -->
+  <script src="js/spa.js"       ></script>
+  <script src="js/spa.shell.js" ></script>
+  <script src="js/cardTable.js" ></script>
+
+  <script>
+    $(function () { spa.initModule( $('#spa') ); });
+  </script>
+
+</head>
+<body ng-controller="userController">
+<div id="spa"></div>
+</body>
+</html>

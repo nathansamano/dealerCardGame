@@ -1,0 +1,13 @@
+README for dealer app
+
+Created by Nathan Samano
+
+To run the app:
+
+  1) Must have MongoDB running on host machine
+  2) In the dealer directory, run npm start
+  3) Go to localhost:3000 in browser
+
+The deal button deals the next set of cards
+and the show historical decks button displays
+all previous deals

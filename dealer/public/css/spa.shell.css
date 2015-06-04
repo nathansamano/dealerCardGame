@@ -1,0 +1,30 @@
+/*
+ * spa.shell.css
+ * Your CSS
+ */
+
+.main-container {
+  top      : 40px;
+  left     : 0;
+  bottom   : 40px;
+  right    : 0;
+  position : absolute;
+  background-color : orange;
+}
+
+.cardTable div[class^='dealt_board'] {
+	/*-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	width:210px;*/
+	background-color: white;
+}
+
+.cardTable div[class^='valuediv'] {
+	display: inline-block;
+	background-color: white;
+}
+
+.histDecks div[class^='valuediv'] {
+	display: inline-block;
+}
